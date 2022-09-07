@@ -1,0 +1,47 @@
+body{
+    max-width: 100%;
+    background-color: black;
+    color: green;
+}
+
+.buttons{
+    display: inline-block;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    border: 3px solid lightgreen;
+    padding: 10px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    padding: 10px;
+    border: 1px solid lightgreen;
+    border-radius: 20px;
+}
+
+#loginbtn{
+    background-color: white;
+    margin-right: 30px;
+    border: 1px lightgreen solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#registerbtn{
+    background-color: white;
+    border: 1px lightgreen solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#registerbtn:hover, #loginbtn:hover{
+    box-shadow: 0 0 0 3px green;
+    background-color: lightgreen;
+    transition: all ease 0.5s;
+}
